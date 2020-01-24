@@ -1,0 +1,1 @@
+python main.py --data_folder  ../../data/xing/standard/ --embedding_dim 500 --hidden_size 500 --num_layers 2 --num_heads 2 --lr 0.001 --window_size 4 --test_observed 5 --n_epochs 20 --shared_embedding 1  --position_embedding 1 --batch_size 100 --optimizer_type Adam --save_model --context item_subspace --kernel_type log
